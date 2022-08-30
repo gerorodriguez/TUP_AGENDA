@@ -1,0 +1,37 @@
+#container{
+    background-color: #ede3b4;
+};
+
+h1{
+    background-color: #ede3b4;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    gap:50px;
+    width: 950px;
+    height: 102px;
+    top:259px;
+    padding: 25px;
+    color: #00E0FF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+};
+
+#boton{
+    position:float;
+    height: 200px;
+};
+
+.centrar-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+}
